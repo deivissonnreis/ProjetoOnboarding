@@ -1,0 +1,26 @@
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    img{
+        width: 480px;
+        max-width: 100%;
+
+
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        img{
+            width: 300px;
+
+        }
+    
+    }
+}
+    
